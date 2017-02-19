@@ -23,8 +23,8 @@
             <js-errors>
                 <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
             </js-errors>
-            <client-side-performance />
-            <source comparator="w3c-html5" />
+            <!--<client-side-performance />-->
+            <!--<source comparator="w3c-html5" />-->
         </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
