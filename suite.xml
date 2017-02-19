@@ -25,7 +25,7 @@
         </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
-            <url href="http://www.cognifide.com"/>
+            <url href="https://nwt.se/kundservice/prenumeration/inloggning/"/>
         </urls>
     </test>
 </suite>
