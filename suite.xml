@@ -11,7 +11,7 @@
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
             <sleep duration="15000"/>
             <screen name="login-icons" css="body > div.site-wide > div.container > header > div:nth-child(3) > div:nth-child(1)"/>
-            <source/>
+
             <status-codes/>
             <js-errors/>
         </collect>
@@ -20,6 +20,8 @@
             <screen comparator="layout"/>
             <source comparator="w3c-html5"/>
             <status-codes filterRange="400,600"/>
+            <screen collectorName="login-icons"/>
+
             <js-errors>
                 <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
             </js-errors>
