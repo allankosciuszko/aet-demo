@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>aetdemo</groupId>
+    <artifactId>aetdemo</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <name>Tests</name>
+    <url>http://www.example.com</url>
+
+    <properties>
+        <aet.version>{PLUGIN-VERSION}</aet.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.cognifide.aet</groupId>
+                <artifactId>aet-maven-plugin</artifactId>
+                <version>2.0.1</version>
+                <configuration>
+                    <!--<endpointDomain>http://162.243.169.228:8181</endpointDomain>-->
+                </configuration>
+
+            </plugin>
+        </plugins>
+    </build>
+</project>
