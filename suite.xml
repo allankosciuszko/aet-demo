@@ -16,6 +16,13 @@
             <js-errors/>
         </collect>
         <!-- Description of compare phase, says what collected data should be compared to the patterns, can also define the exact comparator. If none chosen, the default one is taken. -->
+        <compare xmlns="http://www.cognifide.com/aet/compare/">
+            <screen comparator="layout"/>
+            <status-codes filterRange="400,600"/>
+            <js-errors>
+                <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
+            </js-errors>
+        </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
             <url href="http://www.cognifide.com"/>
