@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Each test suite consists of one suite -->
-<suite name="test-suite" company="cognifide" project="project">
+<suite name="test-suite-5" company="cognifide" project="project">
     <!-- The First test of Test Suite -->
     <!-- The flow is [collect] [compare] [urls] -->
     <test name="first-test" useProxy="rest">
