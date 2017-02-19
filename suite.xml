@@ -1,32 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!-- Each test suite consists of one suite -->
-<suite name="test-suite-11" company="cognifidew" project="project2">
-    <!-- The First test of Test Suite -->
-    <!-- The flow is [collect] [compare] [urls] -->
-    <test name="first-testw">
+
+<suite name="test-suite" company="company" project="tests">
+    <test name="google-homepage">
         <!-- Description of the collect phase -->
         <collect>
             <open/>
             <resolution width="800" height="600" />
-            <wait-for-page-loaded />
-            <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
-            <!--<client-side-performance />-->
             <screen name="logo" css="#hplogo"/>
-            <status-codes/>
-            <js-errors/>
         </collect>
-        <!-- Description of compare phase, says what collected data should be compared to the patterns, can also define the exact comparator. If none chosen, the default one is taken. -->
-        <compare xmlns="http://www.cognifide.com/aet/compare/">
-
             <screen collectorName="logo"> </screen>
-
-            <js-errors>
-                <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
-            </js-errors>
         </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
-            <url href="http:/google.pl"/>
+            <url href="http:/google.com"/>
         </urls>
     </test>
 </suite>
