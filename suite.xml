@@ -9,7 +9,9 @@
             <open/>
             <resolution width="800" height="600" />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
-            <sleep duration="15000"/>
+
+            <client-side-performance />
+
             <screen name="login-icons" css="body > div.site-wide > div.container > header > div:nth-child(3) > div:nth-child(1)"/>
 
             <status-codes/>
@@ -17,7 +19,9 @@
         </collect>
         <!-- Description of compare phase, says what collected data should be compared to the patterns, can also define the exact comparator. If none chosen, the default one is taken. -->
         <compare xmlns="http://www.cognifide.com/aet/compare/">
-            <screen comparator="layout"/>
+            <client-side-performance />
+
+            <!--<screen comparator="layout"/>-->
             <source comparator="w3c-html5"/>
             <status-codes filterRange="400,600"/>
             <screen collectorName="login-icons"/>
