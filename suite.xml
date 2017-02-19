@@ -14,7 +14,7 @@
 
             <!--<client-side-performance />-->
 
-            <screen name="login-icons" css="body > div.site-wide > div.container > header"/>
+            <screen name="login-icons-9" xpath="/html/body/div[2]/div[2]/header"/>
 
             <status-codes/>
             <js-errors/>
