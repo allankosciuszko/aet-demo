@@ -11,7 +11,7 @@
             <wait-for-page-loaded />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
             <!--<client-side-performance />-->
-            <!--<screen name="logo" css="#hplogo"/>-->
+            <screen name="logo" css="#hplogo"/>
             <source />
             <status-codes/>
             <js-errors/>
