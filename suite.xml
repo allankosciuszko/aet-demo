@@ -14,7 +14,7 @@
 
             <!--<client-side-performance />-->
 
-            <screen name="login-icons" css="body > div.site-wide > div.container > header > div:nth-child(3) > div:nth-child(1)"/>
+            <screen name="login-icons" css="body > div.site-wide > div.container > header"/>
 
             <status-codes/>
             <js-errors/>
