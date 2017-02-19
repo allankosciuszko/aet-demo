@@ -9,7 +9,7 @@
             <open/>
             <resolution width="800" height="600" />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
-            <sleep duration="1500"/>
+            <sleep duration="15000"/>
             <screen/>
             <source/>
             <status-codes/>
