@@ -11,7 +11,7 @@
             <wait-for-page-loaded />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
             <!--<client-side-performance />-->
-            <screen name="loginIcons" css="body > div.site-wide > div.container > header"/>
+            <screen name="logo" css="#hplogo"/>
             <status-codes/>
             <js-errors/>
         </collect>
@@ -20,15 +20,15 @@
             <!--<client-side-performance />-->
 
             <!--<screen comparator="layout  "/>-->
-            <screen collectorName="loginIcons"> </screen>
-            <screen name="loginIcons" css="body > div.site-wide > div.container > header"/>
+            <screen collectorName="logo"> </screen>
+
             <js-errors>
                 <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
             </js-errors>
         </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
-            <url href="http:/nwt.se"/>
+            <url href="http:/google.pl"/>
         </urls>
     </test>
 </suite>
