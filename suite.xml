@@ -5,6 +5,7 @@
         <!-- Description of the collect phase -->
         <collect>
             <open/>
+            <sleep duration="5000"/>
             <resolution width="800" height="600" />
             <screen name="logo" css="#hplogo"/>
         </collect>
