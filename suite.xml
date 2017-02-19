@@ -13,7 +13,7 @@
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
 
             <!--<client-side-performance />-->
-            <screen name="login-icons-9" xpath="/html/body/div[2]/div[2]/header/div[2]/div[1]/div/a/div"/>
+            <screen name="login" xpath="/html/body/div[2]/div[2]/header/div[2]/div[1]/div/a/div"/>
 
             <status-codes/>
             <js-errors/>
@@ -23,9 +23,7 @@
             <!--<client-side-performance />-->
 
             <!--<screen comparator="layout"/>-->
-            <source comparator="w3c-html5"/>
-            <status-codes filterRange="400,600"/>
-            <screen collectorName="login-icons-9"/>
+            <screen collectorName="login"/>
 
             <js-errors>
                 <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
