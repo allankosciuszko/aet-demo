@@ -11,15 +11,19 @@
             <wait-for-page-loaded />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
             <!--<client-side-performance />-->
-            <screen name="logo" css="#hplogo"/>
+            <!--<screen name="logo" css="#hplogo"/>-->
+            <source />
             <status-codes/>
             <js-errors/>
         </collect>
         <!-- Description of compare phase, says what collected data should be compared to the patterns, can also define the exact comparator. If none chosen, the default one is taken. -->
         <compare xmlns="http://www.cognifide.com/aet/compare/">
-            <!--<client-side-performance />-->
 
-            <!--<screen comparator="layout  "/>-->
+            <source comparator="source">
+
+                <extract-element css="#hplogo"/>
+            </source>
+
             <screen collectorName="logo"> </screen>
 
             <js-errors>
