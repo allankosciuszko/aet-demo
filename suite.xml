@@ -8,6 +8,8 @@
         <collect>
             <open/>
             <resolution width="800" height="600" />
+            <wait-for-page-loaded />
+
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
 
             <!--<client-side-performance />-->
