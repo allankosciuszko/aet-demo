@@ -13,7 +13,7 @@
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
 
             <!--<client-side-performance />-->
-            <screen name="login-icons-9" xpath="/y/div[2]/div[2]/header"/>
+            <screen name="login-icons-9" xpath="/html/body/div[2]/div[2]/header/div[2]/div[1]/div/a/div"/>
 
             <status-codes/>
             <js-errors/>
