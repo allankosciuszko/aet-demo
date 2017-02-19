@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- Each test suite consists of one suite -->
-<suite name="test-suite-11" company="cognifide" project="project">
+<suite name="test-suite-11" company="cognifidew" project="project2">
     <!-- The First test of Test Suite -->
     <!-- The flow is [collect] [compare] [urls] -->
-    <test name="first-test" useProxy="rest">
+    <test name="first-testw">
         <!-- Description of the collect phase -->
         <collect>
             <open/>
@@ -11,7 +11,7 @@
             <wait-for-page-loaded />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
             <!--<client-side-performance />-->
-            <screen name="login" css="body"/>
+            <screen name="loginIcons" css="body > div.site-wide > div.container > header"/>
             <status-codes/>
             <js-errors/>
         </collect>
@@ -20,7 +20,7 @@
             <!--<client-side-performance />-->
 
             <!--<screen comparator="layout"/>-->
-            <screen collectorName="login"> </screen>
+            <screen collectorName="loginIcons"> </screen>
 
             <js-errors>
                 <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
