@@ -28,7 +28,7 @@
         </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
-            <url href="https://nwt.se/kundservice/prenumeration/inloggning/"/>
+            <url href="https://nwt.se/"/>
         </urls>
     </test>
 </suite>
