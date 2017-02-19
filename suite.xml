@@ -28,7 +28,7 @@
         </compare>
         <!-- List of urls which will be taken into tests -->
         <urls>
-            <url href="https://nwt.se/"/>
+            <url href="http://nwt.se/"/>
         </urls>
     </test>
 </suite>
