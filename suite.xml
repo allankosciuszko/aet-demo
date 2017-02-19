@@ -19,9 +19,9 @@
         <compare xmlns="http://www.cognifide.com/aet/compare/">
             <!--<client-side-performance />-->
 
-            <!--<screen comparator="layout"/>-->
+            <!--<screen comparator="layout  "/>-->
             <screen collectorName="loginIcons"> </screen>
-
+            <screen name="loginIcons" css="body > div.site-wide > div.container > header"/>
             <js-errors>
                 <js-errors-filter source="http://w.iplsc.com/external/jquery/jquery-1.8.3.js" line="2" />
             </js-errors>
