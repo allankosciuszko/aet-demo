@@ -10,7 +10,7 @@
             <resolution width="800" height="600" />
             <!-- sleep 1500 ms before next steps - used on every url defined in urls -->
             <sleep duration="15000"/>
-            <screen name="main-menu" css="body > div.site-wide > div.container > header > div:nth-child(3) > div:nth-child(1)"/>
+            <screen name="login-icons" css="body > div.site-wide > div.container > header > div:nth-child(3) > div:nth-child(1)"/>
             <source/>
             <status-codes/>
             <js-errors/>
